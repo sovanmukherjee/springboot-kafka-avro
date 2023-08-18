@@ -1,0 +1,16 @@
+server:
+  port : 8080
+spring:
+  kafka:
+    producer:
+      properties:
+        schema.registry.url: http://localhost:8081
+        allow.auto.create.topics: false
+      bootstrap-servers: localhost:9092
+      group-id: student_group
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
+      interceptor.classes: io.confluent.monitoring.clients.interceptor.MonitoringProducerInterceptor
+
+topic:
+    student: sm-poc-avro-student-tp

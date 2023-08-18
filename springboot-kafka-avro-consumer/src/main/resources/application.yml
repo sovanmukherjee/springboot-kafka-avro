@@ -1,0 +1,24 @@
+server:
+  port : 8089
+spring:
+  kafka:
+    consumer:
+      properties:
+        schema.registry.url: http://localhost:8081
+        specific.avro.reader: true
+        allow.auto.create.topics: false
+        enable.auto.commit: false
+      bootstrap-servers: localhost:9092
+      group-id: student_group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
+      interceptor.classes: io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor
+    producer:
+      properties:
+        schema.registry.url: http://localhost:8081
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
+
+toipc:
+  student: sm-poc-avro-student-tp

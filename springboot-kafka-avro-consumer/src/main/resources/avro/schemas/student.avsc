@@ -1,0 +1,62 @@
+{
+  "name": "Student",
+  "type": "record",
+  "namespace": "org.poc.kafka.avro.model",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "rollNumber",
+      "type": "int"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "className",
+      "type": "string"
+    },
+    {
+      "name": "contact",
+      "type": {
+        "type": "record",
+        "name": "Contact",
+        "fields": [{
+          "name": "emailId",
+          "type": "string"
+        }, {
+          "name": "mobile",
+          "type": "string"
+        }]
+      }
+    },
+    {
+      "name": "scores",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "namespace": "org.poc.kafka.avro.model",
+          "name": "Score",
+          "fields": [
+            {
+              "name": "subject",
+              "type": "string"
+            },
+            {
+              "name": "marks",
+              "type": "int"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
