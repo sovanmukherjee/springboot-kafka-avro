@@ -58,7 +58,8 @@
 
     You should see all the new topics in the Topics list.
    
-   <img width="1403" alt="Screenshot 2023-10-02 at 12 35 28 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/ed373433-2e0d-4c20-a452-d30ce6f729b3">
+   <img width="1403" alt="Screenshot 2023-10-02 at 12 35 28 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/912f58c4-cc9c-4622-a563-755ff396feb6">
+
 
 
 6. Verify registered schema types:
@@ -80,31 +81,38 @@
 
 9. Run [springboot-kafka-avro-producer](https://github.com/sovanmukherjee/springboot-kafka-avro/tree/5c21b667de1e6000be9556f1fa7c876afb81b5ac/springboot-kafka-avro-producer) service
    
-  <img width="1286" alt="Screenshot 2023-10-02 at 2 34 00 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/5a95b5f4-5a97-4d21-b101-c7b2ddba4c77">
+  <img width="1286" alt="Screenshot 2023-10-02 at 2 34 00 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/c898929d-97e0-44d2-a5c5-40e06235b21f">
+
 
 10. Open [Swagger-Ui](http://localhost:8080/swagger-ui/index.html)
     
-  <img width="1417" alt="image" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/76d5e748-4c2d-43d1-8f9d-72ad4b7493db">
+ <img width="1417" alt="Screenshot 2023-10-02 at 3 02 02 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/b3d8061d-8da3-4ab2-8c7f-07996e6fb1dc">
+
 
 12. Run [springboot-kafka-avro-consumer](https://github.com/sovanmukherjee/springboot-kafka-avro/tree/5c21b667de1e6000be9556f1fa7c876afb81b5ac/springboot-kafka-avro-consumer) service
    
-   <img width="1288" alt="image" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/e508906a-6a79-43c3-9f7b-aff4fd24e2cc">
+   <img width="1288" alt="Screenshot 2023-10-02 at 3 07 29 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/bc48baa3-6d9f-4900-a17b-bcbdbe5c4491">
 
-13. Execute Student API
 
-   <img width="1436" alt="image" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/a9600ef5-c7f2-4d2f-9532-6f6aa539fb9c">
+13. Execute Students API
+
+   <img width="1436" alt="Screenshot 2023-10-02 at 3 11 34 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/5e038523-66f1-4af3-b301-7908d7195e9e">
+
 
 14. [springboot-kafka-avro-producer](https://github.com/sovanmukherjee/springboot-kafka-avro/tree/5c21b667de1e6000be9556f1fa7c876afb81b5ac/springboot-kafka-avro-producer) console log
 
-   <img width="1281" alt="image" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/be49c44f-f681-4989-8c6d-4179ee03783d">
+   <img width="1281" alt="Screenshot 2023-10-02 at 3 14 13 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/1fd7cd20-4a33-47a6-9f74-b866d3081389">
 
-  Student API response:
+
+  Students API response:
   
-   <img width="1421" alt="image" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/84478542-468d-4d1d-af3c-58daf8be7949">
+   <img width="1421" alt="Screenshot 2023-10-02 at 3 16 54 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/c53c6a06-fe67-450b-9633-c3519b87ca70">
+
 
 15. [springboot-kafka-avro-consumer](https://github.com/sovanmukherjee/springboot-kafka-avro/tree/5c21b667de1e6000be9556f1fa7c876afb81b5ac/springboot-kafka-avro-consumer) console log
 
-   <img width="1267" alt="Screenshot 2023-10-02 at 3 19 37 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/38ecfc2f-d84d-4d14-b4eb-f6ed0035c303">
+   <img width="1267" alt="Screenshot 2023-10-02 at 3 19 37 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/9094c1ab-964c-4af4-961d-df7e1393bb2e">
+
 
 
 
