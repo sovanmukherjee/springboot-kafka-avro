@@ -1,6 +1,6 @@
 
 # Getting Started
-##Spring Boot 3 + Kafka + Schema Registry and Avro
+## Spring Boot 3 + Kafka + Schema Registry and Avro
 
 ### Overview
 
@@ -11,7 +11,8 @@
 1. [Download](https://www.docker.com/products/docker-desktop/) and install Docker Desktop 
 2. You can check the version of Docker you have installed:
    
-   <img width="823" alt="Screenshot 2023-10-02 at 1 35 25 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/221c7875-11e6-44b2-88e9-e82f549159fa">
+   <img width="823" alt="Screenshot 2023-10-02 at 1 35 25 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/f9db90bc-90e2-4d15-b9c1-31d0d0a58d05">
+
 
 3. Starting confluent platform on Docker:
    
@@ -21,33 +22,39 @@
 
    You should see all the containers come up as shown below:
    
-   <img width="1503" alt="Screenshot 2023-10-02 at 12 13 38 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/f563c9e8-3997-4062-8cba-31556c870515">
+   <img width="1503" alt="Screenshot 2023-10-02 at 12 13 38 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/596ac75c-8a3e-446d-91e8-98f40f982e4d">
+
 
 4. Create Kafka topics
 
    Navigate to Control Center at http://localhost:9021. It may take a minute or two for Control Center to start and load.
    Click on the cluster.
   
-   <img width="1076" alt="Screenshot 2023-10-02 at 12 19 47 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/27e09e7d-0054-464a-87fd-267961fd0f88">
+   <img width="1076" alt="Screenshot 2023-10-02 at 12 19 47 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/8cee616b-a92d-4ff0-88db-8906c45b4167">
 
   
-   <img width="1322" alt="Screenshot 2023-10-02 at 12 20 19 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/5fb7a313-8c33-4bbc-b73a-929b00421083">
+   <img width="1322" alt="Screenshot 2023-10-02 at 12 20 19 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/86fd3b41-237e-4b1f-945f-f1818af1adbc">
+
 
    In the navigation menu, click Topics to open the topics list. Click on Add topic button
 
-   <img width="1370" alt="Screenshot 2023-10-02 at 2 16 03 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/3f8f83e7-54fb-44df-994e-e2f8a745d011">
+   <img width="1370" alt="Screenshot 2023-10-02 at 2 16 03 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/3d559951-cc70-415d-afc9-7104f291f82c">
+
 
    In the Topic name field, enter topic name and click Create with defaults. Topic names are case-sensitive.
 
-    <img width="1420" alt="Screenshot 2023-10-02 at 12 29 00 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/60bcd90b-7688-4751-ac58-ca25e125e664">
+    <img width="1420" alt="Screenshot 2023-10-02 at 12 29 00 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/56dc3da0-4d70-4b61-95da-dd9294716bd9">
+
 
     Create retry topic
    
-    <img width="1404" alt="Screenshot 2023-10-02 at 12 32 27 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/6b2f2ce9-793b-45f3-b63e-2c6722a94756">
+   <img width="1404" alt="Screenshot 2023-10-02 at 12 32 27 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/3d434a78-4e28-4561-aa19-f0a76c5943d4">
+
 
     Create dlt topic
 
-    <img width="1418" alt="Screenshot 2023-10-02 at 12 33 05 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/e1394b6d-9b9b-4344-86d5-32c0629caccf">
+    <img width="1418" alt="Screenshot 2023-10-02 at 12 33 05 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/43e25824-8ad0-4c1e-af63-4c22fe2e5f2b">
+
 
     You should see all the new topics in the Topics list.
    
