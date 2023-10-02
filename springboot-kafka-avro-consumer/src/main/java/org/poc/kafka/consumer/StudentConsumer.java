@@ -33,7 +33,6 @@ public class StudentConsumer {
             dltTopicSuffix = "-dlt",
             sameIntervalTopicReuseStrategy = SameIntervalTopicReuseStrategy.SINGLE_TOPIC,
             exclude = {NullPointerException.class}
-
     )
     @KafkaListener(topics = "${toipc.student}")
     public void consume(ConsumerRecord<String, Student> studentRecord, @Headers MessageHeaders headers) {
