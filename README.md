@@ -110,6 +110,11 @@ By focusing on schema compliance, enterprises can maintain data quality, reduce 
    
    davidmc24 gradle avro plugin will generate the Student POJO in the org.poc.kafka.avro.model package which is defined in the schema.
    This POJO has id, firstName, lastName, contact properties.
+
+![image](https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/d7ba2157-61b4-4474-9a24-94dc1a1fc71f)
+.
+             <img width="982" alt="image" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/e5c62d41-bff4-405b-a7c0-d106f225283d">
+
     
 
 7. Run [springboot-kafka-avro-producer](https://github.com/sovanmukherjee/springboot-kafka-avro/tree/5c21b667de1e6000be9556f1fa7c876afb81b5ac/springboot-kafka-avro-producer) service
