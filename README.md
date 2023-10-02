@@ -108,7 +108,7 @@ By focusing on schema compliance, enterprises can maintain data quality, reduce 
 
 6. Created Avro Schema: [student.avsc](https://github.com/sovanmukherjee/springboot-kafka-avro/blob/5c21b667de1e6000be9556f1fa7c876afb81b5ac/springboot-kafka-avro-producer/src/main/resources/avro/schemas/student.avsc)
    
-   davidmc24 gradle avro plugin will generate the Student POJO in the org.poc.kafka.avro.model package which is defined in the schema.
+   davidmc24 gradle avro plugin will generate the `Student` POJO in the `org.poc.kafka.avro.model` package which is defined in the schema.
    This POJO has id, firstName, lastName, contact properties.
 
 ![image](https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/d7ba2157-61b4-4474-9a24-94dc1a1fc71f)
@@ -151,7 +151,7 @@ By focusing on schema compliance, enterprises can maintain data quality, reduce 
 
    <img width="1267" alt="Screenshot 2023-10-02 at 3 19 37 AM" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/9094c1ab-964c-4af4-961d-df7e1393bb2e">
 
-13. You can check message in confluent platform by selecting Date Time and Partition
+13. You can check message in Control Center by selecting Date Time and Partition
     
   Example in Retry topic message:
   <img width="1483" alt="image" src="https://github.com/sovanmukherjee/springboot-kafka-avro/assets/26097904/bd99abd6-8aaf-4d72-9eb3-bcef2df14f75">
